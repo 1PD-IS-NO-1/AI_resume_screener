@@ -1,0 +1,20 @@
+# Core
+fastapi
+uvicorn
+
+# Data processing
+pandas
+numpy
+scikit-learn
+
+# Model persistence
+joblib
+pickle-mixin
+
+# Development
+python-multipart
+python-dotenv
+prometheus-fastapi-instrumentator
+# Testing
+pytest
+httpx
