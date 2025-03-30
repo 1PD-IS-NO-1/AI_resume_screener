@@ -36,7 +36,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Deploy to Render
-      uses: render-actions/simple-deploy@v2
+      uses: render-actions/simple-deploy@v3
       with:
         render-token: ${{ secrets.RENDER_TOKEN }}
         service-id: ${{ secrets.RENDER_SERVICE_ID }}
